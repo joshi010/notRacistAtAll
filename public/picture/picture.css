@@ -14,6 +14,11 @@
 
 #canvas{
     display: none;
+    transform: rotateY(3.142rad);
+}
+
+video{
+    transform: rotateY(3.142rad);
 }
 
 .buttons{
@@ -25,4 +30,8 @@
 .square{
     height: 100px;
     width: 100px;
+}
+
+.square{
+    display: none;
 }

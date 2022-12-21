@@ -32,7 +32,17 @@ function identRace() {
     let rgb = `rgb(${first.toFixed(0)}, ${second.toFixed(0)}, ${third.toFixed(0)})`;
     
     rgbText.innerHTML = rgb;
-    return rgb;
+    return { r: first.toFixed(0), g: second.toFixed(0), b: third.toFixed(0) };
+}
+
+function racist(rgb) {
+    if(rgb.r > 100 && rgb.r < 200 && rgb.g > 90 && rgb.g < 150 && rgb.b > 65 && rgb.b < 125){
+        square.innerHTML = 'Morenazo';
+    } else if(rgb.r >= 200 && rgb.g >= 130 && rgb.b >= 125){
+        square.innerHTML = 'Blanquito';
+    } else {
+        square.innerHTML = 'Nigger';
+    }
 }
 
 take.onclick = () => {
@@ -40,8 +50,10 @@ take.onclick = () => {
     let img_url = canvas.toDataURL('image/jpeg');
     video.style.display = 'none';
     canvas.style.display = 'block';
+    square.style.display = 'block';
     let rgb = identRace();
-    square.style.backgroundColor = rgb;
+    racist(identRace());
+    square.style.backgroundColor = `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`;
     // console.log(img_url);
 }
 
