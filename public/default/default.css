@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background-color: #fff6ed;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.margins{
+    margin: 20px 100px;
+}
+
+#all{
+    height: 100%;
+}
+
+.center-all-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#welcum{
+    cursor: pointer;
+    width: 500px;
+    height: 476.016px;
+    background-image: url('../icons/criptoToTheMoon.png');
+    background-size: contain;
+    transition: all 1s;
+}
+
+#welcum:hover{
+    scale: 0.95;
+}
+
+.buttons{
+    padding: 10px 20px;
+    background-color: #ff9e58;
+    cursor: pointer;
+}

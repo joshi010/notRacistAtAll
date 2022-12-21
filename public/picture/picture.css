@@ -1,0 +1,28 @@
+
+.margins{
+    height: 100%;
+}
+
+.taking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+}
+
+#canvas{
+    display: none;
+}
+
+.buttons{
+    border: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+}
