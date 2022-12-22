@@ -39,11 +39,11 @@ function identRace() {
 function racist(rgb) {
     let race;
     if(rgb.r > 100 && rgb.r < 190){
-        race = 'morenazo';
+        race = 'm';
     } else if(rgb.r >= 190){
-        race = 'blanquito';
+        race = 'b';
     } else if(rgb.r <= 100){
-        race = 'nigger';
+        race = 'n';
     }
 
     return race;
