@@ -70,3 +70,34 @@
     align-items: center;
     font-size: 25px;
 }
+
+
+@media only screen and (max-width: 420px) {
+
+    .marigns{
+        height: calc(100% - 20px);
+    }
+
+    #all{
+        width: 100%;
+        height:fit-content;
+    }
+
+    #pic{
+        height: 50px;
+        width: 50px;
+    }
+
+    #image{
+        height: 200px;
+    }
+
+    #lel{
+        width: 100%;
+        
+    }
+
+    #buttons{
+        width: 100%;
+    }
+}

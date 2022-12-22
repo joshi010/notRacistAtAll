@@ -30,3 +30,32 @@
     align-items: center;
     overflow: hidden;
 }
+
+
+@media only screen and (max-width: 420px) {
+
+    .profile{
+        align-items: start;
+    }
+
+    #profile-info{
+        gap: 20px
+    }
+
+    .profile-pic{
+        width: 100px;
+        height: 100px;
+    }
+
+    #lel{
+        scale: .7;
+    }
+
+    #description{
+        font-size: 20px;
+    }
+
+    #race{
+        text-align: start;
+    }
+}
