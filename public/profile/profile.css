@@ -1,0 +1,32 @@
+#race{
+    width: auto;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-info {
+    display: flex;
+    gap: 50px;
+}
+
+.profile-text{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-pic{
+    border-radius: 100%;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
