@@ -40,3 +40,28 @@ video{
     display: none;
 }
 
+.messege{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.icon img{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 420px) {
+    p{
+        font-size: 10px;
+    }
+}

@@ -38,9 +38,9 @@ function identRace() {
 
 function racist(rgb) {
     let race;
-    if(rgb.r > 100 && rgb.r < 190){
+    if(rgb.r > 100 && rgb.r < 200){
         race = 'm';
-    } else if(rgb.r >= 190){
+    } else if(rgb.r >= 200){
         race = 'b';
     } else if(rgb.r <= 100){
         race = 'n';
@@ -59,6 +59,7 @@ take.onclick = () => {
     let rgb = identRace();
     racist(identRace());
     square.style.backgroundColor = `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`;
+    console.log(rgb);
     image = img_url;
 }
 
