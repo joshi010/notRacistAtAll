@@ -38,14 +38,96 @@
     font-weight: 100;
 }
 
+.posts{
+    padding: 20px;
+}
+
+.info{
+    margin-left: 15px;
+}
+
+#info{
+    width: 60%;
+}
+
+.section{
+    margin-top: 30px;
+}
+
+.flex{
+    display: flex;
+}
+
+.color-palette{
+    display: flex;
+    flex-direction: column;
+}
+
+#palette{
+    display: flex;
+    gap: 20px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.food-images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.img-cont{
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+#lol{
+    width: 100px;
+    text-align: center;
+}
+
+.posts{
+    display: flex;
+}
+
+#new-food{
+    display: none;
+}
+
+#messege{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.877);
+}
+
+.penis{
+    display: flex;
+}
+
+#name{
+    width: 500px;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+}
+
 @media only screen and (max-width: 420px) {
 
     .profile{
         align-items: start;
     }
 
+    .profile-text{
+        gap: 10px;
+    }
+
     #profile-info{
-        gap: 20px
+        gap: 10px
     }
 
     .profile-pic{

@@ -8,7 +8,7 @@ img.src = localStorage.getItem('image');
 
 
 const brownUser = () => {
-    const first = ['the', 'xX', 'el', 'super']
+    const first = ['the', 'la', 'el', 'super']
     const second = ['tacoEater', 'wallJump', 'brownie', 'notNig', 'dark', 'mencho'];
     let random = Math.floor(Math.random()* first.length);
     let random2 = Math.floor(Math.random()* second.length);

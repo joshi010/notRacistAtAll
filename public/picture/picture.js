@@ -57,8 +57,6 @@ take.onclick = () => {
     take.style.display = 'none';
     cont.style.display = 'block';
     let rgb = identRace();
-    racist(identRace());
-    square.style.backgroundColor = `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`;
     console.log(rgb);
     image = img_url;
 }
@@ -67,6 +65,7 @@ cont.onclick = () => {
     document.cookie = "visited=true";
     localStorage.setItem('image', image);
     localStorage.setItem('race', racist(identRace()));
+    localStorage.setItem('rgb', identRace());
     window.open('./profile.html', '_self');
 }
 
